@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Seaweed+Script&display=swap');
+
+html {
+    background-color: #ccc;
+}
+body {
+    background-color: white;
+    max-width: 800;
+}
+h1 {
+    font-family: Seaweed Script;
+}
+p {
+    font-family: Nanum Brush Script;
+}
+img {
+    width: 250px;
+    height: 150px;;
+    
+}
+figure {
+    border: 5px solid #ddd;
+    padding: 4px;
+    margin: auto;
+    text-align: center;
+}
+.fig1 {
+    float: right;
+}
+.fig2 {
+    float: left;
+}
+figcaption {
+    font-family: Nanum Brush Script;
+}
