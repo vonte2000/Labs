@@ -3,12 +3,11 @@ for (i = 1; i <= 10; i++) {
     console.log(i);
 }
 
-console.log("Part 2");
 for (i = 10; i >= 1; i--) {
     console.log(i);
 }
 
-console.log("Part 3")
+console.log("Part 2")
 let j = 1;
 while (j <= 10) {
     console.log(j);
@@ -20,7 +19,7 @@ while (j >= 1) {
     j--;
 }
 
-console.log("Part 4")
+console.log("Part 3")
 let k = 1
 do {
     console.log(k);
@@ -30,4 +29,7 @@ k = 10;
 do {
     console.log(k);
     k--;
-} while (k >= 1)
+} while (k >= 1) {
+
+    console.log(k);
+}
