@@ -1,3 +1,4 @@
+//objects
 const submissions = [
     {name: "Jane", score: 95, passed: true},
     {name: "Joe", score: 77, passed: true},
@@ -5,6 +6,7 @@ const submissions = [
     {name: "Jill", score: 88, passed: true}
 ];
 
+//create new objects with name and score
 const addSubmission = (array, newName, newScore) => {
     const submission = {name: newName, score: newScore}
     if (newScore >= 60) {
@@ -17,6 +19,7 @@ const addSubmission = (array, newName, newScore) => {
 addSubmission(submissions, "Vonte", 90)
 console.log(submissions)
 
+//delete object from <array> at [i]
 const deleteSubmissionByIndex = (array, index) => {
     return submissions.splice(array, index)
 }
@@ -32,13 +35,12 @@ const deleteSubmissionByName = (array, name) => {
         submissions.splice(index, 1);
     }
 }
-deleteSubmissionByName(submissions, "Jack")
+deleteSubmissionByName(submissions, "Vonte")
 console.log(submissions);
 
 const editSubmission = (array, index, score) => {
-    const indexToUpdate = [];
-    const newScore = 0;
-    submissions.score == newScore;
+    const edit = new Map()
    
+    return submissions
 }
-console.log(editSubmission(submissions, 2, 88));
+;
