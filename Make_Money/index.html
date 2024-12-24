@@ -6,11 +6,13 @@
     <title>Make Money</title>
     <link href="styles.css" rel="stylesheet">
 </head>
-<body>
+<body id="body">
     <div class="container">
-        <form>
+        <form id="form">
+            <label>How many?</label>
             <input type="number">
-            <label for="coins">Choose a Coin</label>
+
+            <label for="coins">Which Coin</label>
             <select name="coins" id="coins">
                 <option value="penny">Penny</option>
                 <option value="nickel">Nickel</option>
@@ -18,6 +20,10 @@
                 <option value="quarter">Quarter</option>
             </select>
         </form>
+        <div class="btn-container">
+            <button id="money" onclick="makeMoney()">Make Money!</button>
+        </div>
+        
     </div>
     <script src="index.js"></script>
 </body>

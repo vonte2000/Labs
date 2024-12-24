@@ -1,7 +1,95 @@
 body {
     background-color: crimson;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
 }
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+}
+input {
+    width: 25vw;
+}
+select {
+    width: 25vw;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+button {
+    height: 4vh;
+    width: 25vw;
+    border-radius: 10px;
+    background-color: aqua;
+    font-size: 20px;
+}
+.penny {
+    background-color: #B87333;
+}
+.dime {
+    background-color: gray;
+}
+.nickel {
+    background-color: gray;
+}
+.quarter {
+    background-color: gray;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: crimson;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px;
+    }
+    input {
+        width: 25vw;
+    }
+    select {
+        width: 25vw;
+    }
+    .btn-container {
+        display: flex;
+        justify-content: center;
+    }
+    button {
+        height: 4vh;
+        width: 25%;
+        border-radius: 10px;
+        background-color: aqua;
+        font-size: 30px;
+    }
+    .penny {
+        background-color: #B87333;
+    }
+    .dime {
+        background-color: gray;
+    }
+    .nickel {
+        background-color: gray;
+    }
+    .quarter {
+        background-color: gray;
+    }
 }
