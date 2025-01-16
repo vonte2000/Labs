@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Money</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body id="body">
+    <div class="container">
+        <form id="form">
+            <label>How many?</label>
+            <input type="number">
+
+            <label for="coins">Which Coin</label>
+            <select name="coins" id="coins">
+                <option value="penny">Penny</option>
+                <option value="nickel">Nickel</option>
+                <option value="dime">Dime</option>
+                <option value="quarter">Quarter</option>
+            </select>
+        </form>
+        <div class="btn-container">
+            <button id="money" onclick="makeMoney()">Make Money!</button>
+        </div>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
