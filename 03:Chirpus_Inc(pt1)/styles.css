@@ -8,10 +8,10 @@ header {
     display: flex;
     flex-direction: column;
     margin: 10px;
+    border: solid 1px black;
+    align-items: center;
 }
-.header_container {
-    display: flex;
-}
+
 a {
     padding: 5px;
     text-decoration: none;
