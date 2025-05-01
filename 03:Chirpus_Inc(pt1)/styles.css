@@ -3,13 +3,15 @@ body {
     height: 100%;
     margin: auto;
     background-color: #f9fafc;
+    display: flex;
 }
+
 header {
     display: flex;
     flex-direction: column;
     margin: 10px;
     border: solid 1px black;
-    align-items: center;
+    align-items: flex-start;
 }
 
 a {
@@ -22,7 +24,7 @@ a:visited {
 button {
     background-color: #000;
     color: #FFF;
-    
+    width: 100%; /*makes button full width on mobile*/
     
     text-align: center;
     border-radius: 12px;
@@ -41,13 +43,14 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        
     }
     
     p {
         width: 50%;
     }
-    .button {
-        width: 50%;
+    button {
+        width: auto; /*back to normal sized button on larger screens*/
     }
     .dot {
         height: 25px;
