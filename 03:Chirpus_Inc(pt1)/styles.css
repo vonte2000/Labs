@@ -21,6 +21,10 @@ a {
 a:visited {
     color: #69696a;
 }
+.cta {
+    width: 100%;
+    border: solid 1px black;
+}
 button {
     background-color: #000;
     color: #FFF;
@@ -38,16 +42,19 @@ footer {
     background-color: rgba(247, 193, 162, 0.7);
     width: 100%;
 }
+
+
+
+/* tablet and up */
 @media screen and (min-width:768px) {
     header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        
     }
     
     p {
-        width: 50%;
+        text-align: center;
     }
     button {
         width: auto; /*back to normal sized button on larger screens*/
@@ -79,7 +86,40 @@ footer {
         background-color: rgba(247, 136, 167, 0.6);
         left: 700px;
         position: relative;
-        
       }
-      
+      .cta {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+      }
+      .cta-block {
+        width: 50%;
+      }
+      .cta-button {
+        width: 100%;
+      }
+      .circle-container {
+        display: block;
+        width: 120px;
+        height: 120px;
+        position: relative;
+    }
+    
+    .dot {
+        top: 40px;
+        left: 40px;
+        z-index: 3;
+      }
+      .med_dot {
+        left: 30px;
+        top: 30px;
+        z-index: 2;
+      }
+      .lg_dot {
+        left: 20px;
+        top: 20px;
+        z-index: 1;
+      }
+
 }
